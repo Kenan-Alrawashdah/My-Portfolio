@@ -2,9 +2,11 @@
 
 
 .contanet{
+    position: fixed;
      width: 20vw;
      box-shadow: rgba(0, 0, 0, 0.12) 5px 5px 5px;
      height: 100vh;
+     z-index: 80;
     .profile{
       display: flex;
       flex-direction: column;
@@ -36,6 +38,7 @@
       }
     }
     .container-info{
+      background-color: $base2;
       padding: .5rem 1rem;
       overflow-y: auto;
       max-height: 65vh;

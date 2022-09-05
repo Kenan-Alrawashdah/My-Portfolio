@@ -5,14 +5,17 @@ import { PortfolioRoutingModule } from './portfolio-routing.module';
 import { PortfolioComponent } from './portfolio.component';
 import { SkilesComponent } from './skiles/skiles.component';
 import { BurgersComponent } from './skiles/burgers/burgers.component';
+import { HeaderComponent } from './header/header.component';
+import { AngularTypewriterEffectModule } from 'angular-typewriter-effect';
 
 
 @NgModule({
-  declarations: [PortfolioComponent, SkilesComponent, BurgersComponent],
+  declarations: [PortfolioComponent, SkilesComponent, BurgersComponent, HeaderComponent],
   imports: [
     CommonModule,
     PortfolioRoutingModule,
-    LayoutModule
+    LayoutModule,
+    AngularTypewriterEffectModule
   ]
 })
 export class PortfolioModule { }

@@ -17,7 +17,7 @@ export class BurgersComponent implements OnInit {
   constructor(private breakpointObserver :BreakpointObserver) { }
 
   ngOnInit(): void {
-     this.breakpointObserver.observe(['(max-width: 700px)']).subscribe((status :BreakpointState)=>{
+     this.breakpointObserver.observe(['(max-width: 900px)']).subscribe((status :BreakpointState)=>{
          if(status.matches){
            this.showIcon = true;
            this.isShowSide = false;

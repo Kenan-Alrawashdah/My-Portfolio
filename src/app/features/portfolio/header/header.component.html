@@ -1,0 +1,21 @@
+<div class="header">
+    <img src="assets/Iamges/bg.jpg">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="text">
+        <h1>Discover my Amazing <br> Art Space!</h1>
+        <p> &lt;<span> code </span>&gt; I build <ngtypewriter [StringList]='list' [speed]='1000'></ngtypewriter>&lt;<span> /code </span>&gt;</p>
+        <button class="btn">Exploer Now</button>
+      </div>
+      <div class="my-image">
+        <img src="assets/Iamges/my.jpg" >
+      </div>
+    </div>
+    <div class="info">
+      <div class="sub-info" *ngFor="let item of arrInfo">
+        <span>{{item.value}}</span>
+        <p>{{item.key}}</p>
+      </div>
+    </div>
+  </div>
+  
