@@ -1,0 +1,164 @@
+@import "src/styles";
+
+
+.contanet{
+     width: 20vw;
+     box-shadow: rgba(0, 0, 0, 0.12) 5px 5px 5px;
+     height: 100vh;
+    .profile{
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+       padding-top:1rem;
+       padding-bottom: 2rem;
+       background-color: $base2;
+      .div-iamge{
+         width:100px;
+         height: 100px;
+         border-radius: 50%;
+         overflow: hidden;
+         img{
+          width:100%;
+          height: 100%;
+          object-fit: cover;
+         }
+      }
+      h4{
+        margin-top: 0.5rem;
+        color: $text1;
+        font-weight: border;
+        background-color: $base2
+      }
+      p{
+        margin-top: 0.8rem;
+        color: $text2;
+        background-color: $base2;
+      }
+    }
+    .container-info{
+      padding: .5rem 1rem;
+      overflow-y: auto;
+      max-height: 65vh;
+    .info{
+      border-bottom: 1px solid $text2;
+      padding-bottom: .8rem;
+      margin-bottom: 1rem;
+      .sub-info{
+        display:flex;
+        justify-content:space-between;
+        margin-top: 0.5rem;
+      }
+    }
+  
+    .language {
+      display: flex;
+      flex-flow: row nowrap;
+      border-bottom: 1px solid $text2;
+      padding-bottom: .8rem;
+      margin-bottom: 1rem;
+      .single-chart {
+        width: 50%;
+        justify-content: space-around ;
+  
+        p{
+          text-align: center;
+        }
+      }
+  
+    }
+  
+  
+  
+    .circular-chart {
+      display: block;
+      margin: 5px auto;
+      max-width: 55%;
+      max-height: 200px;
+    }
+  
+    .circle-bg {
+      fill: none;
+      stroke: #191923;
+      stroke-width: .7;
+    }
+  
+    .circle {
+      fill: none;
+      stroke-width: .7;
+      stroke-linecap: round;
+      animation: progress 1s ease-out forwards;
+    }
+  
+    @keyframes progress {
+      0% {
+        stroke-dasharray: 0 100;
+      }
+    }
+  
+    .circular-chart.orange .circle {
+      stroke: $base4;
+    }
+  
+  
+    .percentage {
+      fill: $text2;
+      font-family: sans-serif;
+      font-size: 0.5em;
+      text-anchor: middle;
+    }
+  
+    .skiles{
+       .infoSkile{
+         display: flex;
+         justify-content:space-between;
+         margin-bottom: .5rem;
+       }
+    }
+    }
+  
+  
+    .my-style-p{
+      color: $text1;
+      font-size: 13px;
+    }
+    .my-style-span{
+      color: $text2;
+      font-size: 13px;
+    }
+   }
+
+   .container-info::-webkit-scrollbar { width: 0 !important }
+   .container-info { overflow: -moz-scrollbars-none; }
+   .container-info { -ms-overflow-style: none; }
+
+   
+   
+@media (max-width:900px) {
+  .contanet {
+    width: 35vw;
+  }
+}
+@media (max-width:800px) {
+
+  .contanet {
+    width: 45vw;
+  }
+
+}
+@media (max-width:650px) {
+  .contanet {
+    width: 50vw;
+  }
+
+}
+@media (max-width:500px) {
+  .contanet {
+    width: 60vw;
+  }
+
+}
+@media (max-width:400px) {
+  .contanet {
+    width: 70vw;
+  }
+}

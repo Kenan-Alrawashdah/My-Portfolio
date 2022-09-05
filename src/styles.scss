@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+*,html, body {
+    margin: 0;
+    padding: 0;
+    font-family:serif;
+  }
+  body{
+    background-color: #1e1e27;
+  }
+  
+  //background color
+  
+  $base1: #20202a;
+  $base2: #24242f;
+  $base3: #25252f;
+  $base4: #ffc107;
+  
+  // text color
+  
+  $text1:white;
+  $text2: #737378;
+  

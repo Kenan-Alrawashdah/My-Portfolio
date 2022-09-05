@@ -1,0 +1,35 @@
+@import "src/styles";
+
+ .container{
+  padding: 0 5px;
+  width: 3rem;
+ }
+
+ .burger-top, .burger-med, .burger-bottom{
+    width: 40px;
+    height:4px;
+    background-color:$text1;
+    margin:6px 0;
+  }
+
+
+ .burgerTop2{
+    transform: rotate(45deg);
+    transition: .4s;
+    position: absolute;
+    top: 10px;
+  }
+  
+  
+   .burgerMed2{
+    transform: translate(-200%);
+    transition: .4s;
+  }
+  
+  
+  .burgerBottom2{
+    transform: rotate(-45deg);
+    transition: .4s;
+    position: absolute;
+    top: 10px;
+  }
