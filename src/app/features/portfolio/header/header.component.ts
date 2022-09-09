@@ -11,12 +11,7 @@ export class HeaderComponent implements OnInit {
   
   list:Array<string>= ['wep aplicacion', ' Mobile aplicacion'];
 
-  arrInfo: MyInfo[] = [
-    {key : 'Years Experience', value : '2'},
-    {key : 'Completed Projects', value : '4'},
-    // {key : 'Happy Customers', value : '154'},
-    // {key : 'Honors and Awards', value : '20'}
-  ]
+ 
   constructor() { }
 
   ngOnInit(): void {

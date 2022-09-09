@@ -7,10 +7,13 @@ import { SkilesComponent } from './skiles/skiles.component';
 import { BurgersComponent } from './skiles/burgers/burgers.component';
 import { HeaderComponent } from './header/header.component';
 import { AngularTypewriterEffectModule } from 'angular-typewriter-effect';
+import { ProjectsComponent } from './projects/projects.component';
+import { ProjectCardComponent } from './projects/project-card/project-card.component';
+import { ExperienceComponent } from './experience/experience.component';
 
 
 @NgModule({
-  declarations: [PortfolioComponent, SkilesComponent, BurgersComponent, HeaderComponent],
+  declarations: [PortfolioComponent, SkilesComponent, BurgersComponent, HeaderComponent, ProjectsComponent, ProjectCardComponent, ExperienceComponent],
   imports: [
     CommonModule,
     PortfolioRoutingModule,

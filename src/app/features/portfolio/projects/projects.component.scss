@@ -1,0 +1,22 @@
+@import "src/styles";
+
+.contanet{
+    margin-left:  $marginLeft;
+    padding: 0 .5rem;
+    display: flex;
+    gap: .5rem;
+   
+}
+
+
+
+@media (max-width:900px) {
+    .contanet{
+        margin-left: 0;
+    }
+}
+@media (max-width:800px) {
+    .contanet{
+       flex-wrap: wrap;
+    }
+}

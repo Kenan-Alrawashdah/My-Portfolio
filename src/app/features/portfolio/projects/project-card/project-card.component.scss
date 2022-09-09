@@ -1,0 +1,35 @@
+@import "src/styles";
+
+.container{
+    background-color: $base2;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    .div-descripation{
+        margin-top: .5rem;
+    }
+
+    .div-stack{
+        margin-top: .5rem;
+    }
+
+    .div-link{
+        margin-top: .5rem;
+        display: flex;
+        justify-content: end;
+        gap: 5px;
+
+        button{
+            background-color: $base4;
+            border: none;
+            padding: .5rem 1rem;
+            font-size:1rem;
+            margin-top: 1.5rem;
+            border-radius: 2px;
+        }
+
+    }
+}
